@@ -1,6 +1,7 @@
 # Projeto-Relatorio
 
-Prejeto criado para empresa WExpresso do segmento de Moto Entregas.
-O projeto tem como finalidade acelerar o processo de relatorios diarios que anteriormente era realizado com word ou manuscrito, deixando esses dados mais seguros e possibilitando que eles sejam impressos ou arquivados(localmente ou nuvem). <br>
-No projeto coloquei os dados basicos que eles colocavam no relatorio diario, como por exemplo: quantas entregas foram realizadas, quantas estão pendentes, quantos colaboradores estavam realizando as entregas naquele dia entre outros.
-O projeto conta com pequenos detalhes em JavaScript, como: atualização automatica da hora que o relatorio foi salvo, desabilitação de text area quando não há inicdentes e botão de impressão.
+O projeto foi desenvolvido para a empresa WExpresso, que atua no segmento de Moto Entregas. Seu objetivo principal é acelerar o processo de geração de relatórios diários, que antes eram feitos manualmente no Word ou por escrito, tornando esses dados mais seguros e permitindo que sejam impressos ou arquivados localmente ou na nuvem.
+<br>
+No projeto, foram incluídos os dados básicos que eram registrados nos relatórios diários, tais como: quantidade de entregas realizadas, quantidade de entregas pendentes, número de colaboradores envolvidos nas entregas naquele dia, entre outros.
+<br>
+Algumas funcionalidades em JavaScript foram implementadas no projeto, tais como: atualização automática do horário em que o relatório foi salvo, desabilitação da área de texto quando não há incidentes registrados e um botão de impressão.
