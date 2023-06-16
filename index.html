@@ -60,12 +60,12 @@
           </div>
 
           <div class="inputCheck">
-            <label for="semIncidente" class="semIncidente">
+            <label onclick="desabilitar()" for="semIncidente" class="semIncidente">
               <input type="checkbox" id="semIncidente" />
               Não</label
             >
 
-            <label for="comIncidente" class="comIncidente">
+            <label for="comIncidente" onclick="habilitar()" class="comIncidente">
               <input type="checkbox" id="comIncidente" />
               Sim, quais?</label
             >
@@ -99,11 +99,6 @@
           window.print();
         });
 
-      function autoResize(textarea) {
-        textarea.style.height = "auto";
-        textarea.style.height = textarea.scrollHeight + "px";
-      }
-
       function atualizarDataHora() {
         const dataElemento = document.getElementById("data");
         const horaElemento = document.getElementById("hora");
@@ -135,6 +130,14 @@
 
       atualizarDataHora();
       setInterval(atualizarDataHora, 1000);
+
+      function desabilitar(){
+        document.getElementById('textIncidente').style = 'display:none'
+      }
+
+      function habilitar(){
+        document.getElementById('textIncidente').style = 'display:block'
+      }
     </script>
   </body>
 </html>
